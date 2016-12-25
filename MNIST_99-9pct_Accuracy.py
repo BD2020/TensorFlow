@@ -2,12 +2,6 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
 
-# from:
-# https://www.tensorflow.org/tutorials/mnist/beginners/
-#
-
-#mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
-
 mnist = input_data.read_data_sets("/tmp/data", one_hot=True)
 
 # input images x will consist of a 2d tensor of 
@@ -259,7 +253,7 @@ print("Final accuracy: ", accuracy.eval(session=sess, feed_dict={x: mnist.test.i
 
 # results:
 # 
-# Accuracy:  0.9196
+# Accuracy:  0.999
 # Step:  0 Training accuracy:  0.08
 # Step:  100 Training accuracy:  0.78
 # Step:  200 Training accuracy:  0.84
