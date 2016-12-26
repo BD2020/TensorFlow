@@ -23,7 +23,7 @@ mnist = input_data.read_data_sets("/tmp/data", one_hot=True)
 
 # define # of cycles of feedforward + back propagation
 #
-num_epochs = 3 # use 10 for: 0.9487 accuracy, or: 20 for: 0.9568 accuracy
+num_epochs = 10
 
 #output from out Neural Network NN will have say 10 nodes
 #
@@ -212,81 +212,3 @@ def train_neural_network(x):
 train_neural_network(x)    
 
 print("Done")
-
-# Input MNIST data:
-#
-# Extracting /tmp/data\train-images-idx3-ubyte.gz
-# Extracting /tmp/data\train-labels-idx1-ubyte.gz
-# Extracting /tmp/data\t10k-images-idx3-ubyte.gz
-# Extracting /tmp/data\t10k-labels-idx1-ubyte.gz
-#
-
-# with Deep Neural Network / hidden layers # of nodes = 500:
-#
-# for num_epochs = 2:
-# Epoch: 0 completed out of: 2 Loss: 1813321.25165
-# Epoch: 1 completed out of: 2 Loss: 430404.777573
-# Accuracy: 0.9168
-# Done
-
-# with Deep Neural Network / hidden layers # of nodes = 500:
-#
-# for num_epochs = 10:
-# Epoch: 0 completed out of: 10 Loss: 1785099.64235
-# Epoch: 1 completed out of: 10 Loss: 414276.079529
-# Epoch: 2 completed out of: 10 Loss: 224783.85342
-# Epoch: 3 completed out of: 10 Loss: 133979.302543
-# Epoch: 4 completed out of: 10 Loss: 79955.4939818
-# Epoch: 5 completed out of: 10 Loss: 53943.2304412
-# Epoch: 6 completed out of: 10 Loss: 37027.2919869
-# Epoch: 7 completed out of: 10 Loss: 26976.376902
-# Epoch: 8 completed out of: 10 Loss: 20682.3958718
-# Epoch: 9 completed out of: 10 Loss: 19416.1112623
-# Accuracy: 0.9487
-# Done
-
-
-# with RNN instead of Deep Neural Network with RNN size of 128
-#
-# for num_epochs: 3
-#
-# Epoch: 0 completed out of: 3 Loss: 185.841736279
-# Epoch: 1 completed out of: 3 Loss: 51.797361739
-# Epoch: 2 completed out of: 3 Loss: 34.8417065181
-# Accuracy: 0.9769
-# Done
-
-# with RNN instead of Deep Neural Network with RNN size of 128
-#
-# for num_epochs: 10
-#
-# Epoch: 0 completed out of: 10 Loss: 201.06586222
-# Epoch: 1 completed out of: 10 Loss: 52.501295004
-# Epoch: 2 completed out of: 10 Loss: 36.2903537564
-# Epoch: 3 completed out of: 10 Loss: 26.938566586
-# Epoch: 4 completed out of: 10 Loss: 22.8711767318
-# Epoch: 5 completed out of: 10 Loss: 18.7210224858
-# Epoch: 6 completed out of: 10 Loss: 16.4110513597
-# Epoch: 7 completed out of: 10 Loss: 14.43695963
-# Epoch: 8 completed out of: 10 Loss: 12.56695476
-# Epoch: 9 completed out of: 10 Loss: 12.1563876133
-# Accuracy: 0.9789
-# Done
-
-# with RNN instead of Deep Neural Network with RNN size of 256
-#
-# for num_epochs: 3
-#
-# Epoch: 0 completed out of: 3 Loss: 195.687599011
-# Epoch: 1 completed out of: 3 Loss: 48.5623333659
-# Epoch: 2 completed out of: 3 Loss: 33.6198847163
-# Accuracy: 0.9736
-# Done  
-
-# CNN COmvolutional Neural Network result
-# epochs = 3
-#
-# Epoch: 0 completed out of: 3 Loss: 1293118.0173
-# Epoch: 1 completed out of: 3 Loss: 221826.07238
-# Epoch: 2 completed out of: 3 Loss: 129393.197929
-# Done
