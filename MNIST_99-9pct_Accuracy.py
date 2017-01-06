@@ -251,7 +251,7 @@ print("Final accuracy: ", accuracy.eval(session=sess, feed_dict={x: mnist.test.i
 # Dropout is often very effective at reducing overfitting, 
 # but it is most useful when training very large neural networks
 
-# results:
+# Prediction results:
 # 
 # Accuracy:  0.999
 # Step:  0 Training accuracy:  0.08
