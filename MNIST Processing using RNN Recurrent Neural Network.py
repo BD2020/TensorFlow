@@ -193,7 +193,8 @@ print("Done")
 # Extracting /tmp/data\t10k-images-idx3-ubyte.gz
 # Extracting /tmp/data\t10k-labels-idx1-ubyte.gz
 #
-
+# Prediction results:
+#
 # with Deep Neural Network / hidden layers # of nodes = 500:
 #
 # for num_epochs = 2:
