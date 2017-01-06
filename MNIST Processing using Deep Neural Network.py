@@ -190,6 +190,8 @@ train_neural_network(x)
 
 print("Done")
 
+# Prediction results:
+#
 # with hidden layer # of nodes = 500:
 #
 # for num_epochs = 2:
