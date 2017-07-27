@@ -18,7 +18,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 #
 # do this 10 - 20 times
 # 
-
+ 
 mnist = input_data.read_data_sets("/tmp/data", one_hot=True)
 
 # define # of cycles of feedforward + back propagation
