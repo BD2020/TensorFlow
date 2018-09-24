@@ -3,7 +3,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 # MNIST processing using Deep Neural Network (Multilayer Perceptron Model)
 #
-# MNIST training + testing
+# MNIST training + testing 
 #
 # example flow of a feed forward neural network:
 #
