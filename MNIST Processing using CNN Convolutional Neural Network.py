@@ -130,7 +130,7 @@ def convolutional_neural_network(x):
     pool1 = maxpool2d(conv1)
     
 # our 2nd convolution layer
-#
+# 
 # OLD
 #    conv2 = conv2d(conv1, weights['W_conv2'])
     conv2 = tf.nn.relu(conv2d(pool1, weights['W_conv2']) + biases['b_conv2'])
